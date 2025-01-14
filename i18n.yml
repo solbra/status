@@ -1,6 +1,3 @@
-### Tradução para Português
-
-```yaml
 activeIncidents: Incidentes Ativos
 allSystemsOperational: Todos os sistemas estão operacionais
 incidentReport: "Relatório do Incidente #$NUMBER →"
@@ -62,4 +59,3 @@ duration30D: 30d
 duration1Y: 1 ano
 durationAll: todos
 locale: pt-BR
-```
