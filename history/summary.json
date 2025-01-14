@@ -1,0 +1,58 @@
+[
+  {
+    "name": "Solbra",
+    "url": "https://solbra.com.br",
+    "icon": "https://icons.duckduckgo.com/ip3/solbra.com.br.ico",
+    "slug": "solbra",
+    "status": "down",
+    "uptime": "95.49%",
+    "uptimeDay": "95.49%",
+    "uptimeWeek": "95.49%",
+    "uptimeMonth": "95.49%",
+    "uptimeYear": "95.49%",
+    "time": 4447,
+    "timeDay": 4447,
+    "timeWeek": 4447,
+    "timeMonth": 4447,
+    "timeYear": 4447,
+    "dailyMinutesDown": {
+      "2025-01-14": 6
+    }
+  },
+  {
+    "name": "Olha Meu Link",
+    "url": "https://olhameu.link",
+    "icon": "https://icons.duckduckgo.com/ip3/olhameu.link.ico",
+    "slug": "olha-meu-link",
+    "status": "up",
+    "uptime": "100.00%",
+    "uptimeDay": "100.00%",
+    "uptimeWeek": "100.00%",
+    "uptimeMonth": "100.00%",
+    "uptimeYear": "100.00%",
+    "time": 776,
+    "timeDay": 776,
+    "timeWeek": 776,
+    "timeMonth": 776,
+    "timeYear": 776,
+    "dailyMinutesDown": {}
+  },
+  {
+    "name": "ApoioGenealogi.co",
+    "url": "https://apoiogenealogi.co",
+    "icon": "https://icons.duckduckgo.com/ip3/apoiogenealogi.co.ico",
+    "slug": "apoio-genealogi-co",
+    "status": "up",
+    "uptime": "100.00%",
+    "uptimeDay": "100.00%",
+    "uptimeWeek": "100.00%",
+    "uptimeMonth": "100.00%",
+    "uptimeYear": "100.00%",
+    "time": 1779,
+    "timeDay": 1779,
+    "timeWeek": 1779,
+    "timeMonth": 1779,
+    "timeYear": 1779,
+    "dailyMinutesDown": {}
+  }
+]
