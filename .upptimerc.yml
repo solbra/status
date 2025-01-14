@@ -10,7 +10,7 @@ sites:
     url: https://apoiogenealogi.co
 
 status-website:
-  baseUrl: /
+  cname: status.solbra.com.br
   logoUrl: https://plataforma.solbra.com.br/assets/images/solbra-dark.svg
   name: Solbra
   introTitle: 'Operação dos Sistemas'
