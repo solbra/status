@@ -13,10 +13,8 @@ status-website:
   baseUrl: /
   logoUrl: https://plataforma.solbra.com.br/assets/images/solbra-dark.svg
   name: Solbra
-  introTitle: "Operação dos Sistemas"
-  introMessage: "Essa página mostra atualizações sobre a operação dos sistemas Solbra."
+  introTitle: 'Operação dos Sistemas'
+  introMessage: 'Essa página mostra atualizações sobre a operação dos sistemas Solbra.'
   navbar:
     - title: Status
       href: /
-  footer:
-    copyright: "© 2025 Solbra. Todos os direitos reservados."
