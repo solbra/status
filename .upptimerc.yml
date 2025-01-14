@@ -12,71 +12,72 @@ sites:
 status-website:
   cname: status.solbra.com.br
   logoUrl: https://plataforma.solbra.com.br/assets/images/solbra-dark.svg
-  name: 
+  name: ''
   introTitle: 'Operação dos Sistemas'
   introMessage: 'Essa página mostra atualizações sobre a operação dos sistemas Solbra.'
   navbar:
     - title: Operação
       href: /
-  i18n:
-    activeIncidents: Incidentes Ativos
-    allSystemsOperational: Todos os sistemas estão operacionais
-    incidentReport: "Relatório do Incidente #$NUMBER →"
-    activeIncidentSummary: Aberto em $DATE com $POSTS publicações
-    incidentTitle: Detalhes do Incidente $NUMBER
-    incidentDetails: Detalhes do Incidente
-    incidentFixed: Resolvido
-    incidentOngoing: Em andamento
-    incidentOpenedAt: Aberto em
-    incidentClosedAt: Fechado em
-    incidentViewOnGitHub: Ver e Inscrever-se no GitHub
-    incidentCommentSummary: Publicado em $DATE por $AUTHOR
-    incidentBack: ← Voltar para todos os incidentes
-    pastIncidents: Incidentes Passados
-    pastIncidentsResolved: Resolvido em $MINUTES minutos com $POSTS publicações
-    liveStatus: Status ao Vivo
-    overallUptime: "Tempo de atividade geral: $UPTIME"
-    overallUptimeTitle: Tempo de atividade geral
-    averageResponseTime: "Tempo médio de resposta: $TIMEms"
-    averageResponseTimeTitle: Resposta média
-    sevelDayResponseTime: Tempo de resposta em 7 dias
-    responseTimeMs: Tempo de resposta (ms)
-    up: Ativo
-    down: Inativo
-    degraded: Degradado
-    ms: ms
-    loading: Carregando
-    navGitHub: GitHub
-    footer: © 2025 Solbra. Todos os direitos reservados.
-    rateLimitExceededTitle: Limite de taxa excedido
-    rateLimitExceededIntro: Você excedeu o número de solicitações permitidas por hora, então precisará esperar antes de acessar este site novamente. Alternativamente, você pode adicionar um Token de Acesso Pessoal do GitHub para continuar a usar este site.
-    rateLimitExceededWhatDoesErrorMean: O que significa esse erro?
-    rateLimitExceededErrorMeaning: Este site usa a API do GitHub para acessar dados em tempo real sobre o status de nossos sites. Por padrão, o GitHub permite 60 solicitações por hora para cada endereço IP, que você consumiu.
-    rateLimitExceededErrorHowCanFix: Como posso corrigir isso?
-    rateLimitExceededErrorFix: Você pode esperar mais uma hora para que o limite do seu endereço IP seja restaurado. Alternativamente, você pode adicionar seu Token de Acesso Pessoal do GitHub, que concede mais 5.000 solicitações por hora.
-    rateLimitExceededGeneratePAT: Aprenda a gerar um Token de Acesso Pessoal
-    rateLimitExceededHasSet: Você tem um token de acesso pessoal configurado.
-    rateLimitExceededRemoveToken: Remover token
-    rateLimitExceededGitHubPAT: Token de Acesso Pessoal do GitHub
-    rateLimitExceededCopyPastePAT: Copie e cole seu token
-    rateLimitExceededSaveToken: Salvar token
-    errorTitle: Ocorreu um erro
-    errorIntro: Ocorreu um erro ao tentar obter os detalhes mais recentes do status.
-    errorText: Você pode tentar novamente em alguns momentos.
-    errorHome: Ir para a página inicial
-    pastScheduledMaintenance: Manutenções Programadas Passadas
-    scheduledMaintenance: Manutenção Programada
-    scheduledMaintenanceSummaryStarted: Iniciada em $DATE por $DURATION minutos
-    scheduledMaintenanceSummaryStarts: Começa em $DATE por $DURATION minutos
-    startedAt: Iniciada em
-    startsAt: Começa em
-    duration: Duração
-    durationMin: $DURATION minutos
-    incidentCompleted: Concluído
-    incidentScheduled: Programado
-    duration24H: 24h
-    duration7D: 7d
-    duration30D: 30d
-    duration1Y: 1 ano
-    durationAll: todos
-    locale: pt-BR
+
+i18n:
+  activeIncidents: Incidentes Ativos
+  allSystemsOperational: Todos os sistemas estão operacionais
+  incidentReport: "Relatório do Incidente #$NUMBER →"
+  activeIncidentSummary: Aberto em $DATE com $POSTS publicações
+  incidentTitle: Detalhes do Incidente $NUMBER
+  incidentDetails: Detalhes do Incidente
+  incidentFixed: Resolvido
+  incidentOngoing: Em andamento
+  incidentOpenedAt: Aberto em
+  incidentClosedAt: Fechado em
+  incidentViewOnGitHub: Ver e Inscrever-se no GitHub
+  incidentCommentSummary: Publicado em $DATE por $AUTHOR
+  incidentBack: ← Voltar para todos os incidentes
+  pastIncidents: Incidentes Passados
+  pastIncidentsResolved: Resolvido em $MINUTES minutos com $POSTS publicações
+  liveStatus: Status ao Vivo
+  overallUptime: "Tempo de atividade geral: $UPTIME"
+  overallUptimeTitle: Tempo de atividade geral
+  averageResponseTime: "Tempo médio de resposta: $TIMEms"
+  averageResponseTimeTitle: Resposta média
+  sevelDayResponseTime: Tempo de resposta em 7 dias
+  responseTimeMs: Tempo de resposta (ms)
+  up: Ativo
+  down: Inativo
+  degraded: Degradado
+  ms: ms
+  loading: Carregando
+  navGitHub: GitHub
+  footer: © 2025 Solbra. Todos os direitos reservados.
+  rateLimitExceededTitle: Limite de taxa excedido
+  rateLimitExceededIntro: Você excedeu o número de solicitações permitidas por hora, então precisará esperar antes de acessar este site novamente. Alternativamente, você pode adicionar um Token de Acesso Pessoal do GitHub para continuar a usar este site.
+  rateLimitExceededWhatDoesErrorMean: O que significa esse erro?
+  rateLimitExceededErrorMeaning: Este site usa a API do GitHub para acessar dados em tempo real sobre o status de nossos sites. Por padrão, o GitHub permite 60 solicitações por hora para cada endereço IP, que você consumiu.
+  rateLimitExceededErrorHowCanFix: Como posso corrigir isso?
+  rateLimitExceededErrorFix: Você pode esperar mais uma hora para que o limite do seu endereço IP seja restaurado. Alternativamente, você pode adicionar seu Token de Acesso Pessoal do GitHub, que concede mais 5.000 solicitações por hora.
+  rateLimitExceededGeneratePAT: Aprenda a gerar um Token de Acesso Pessoal
+  rateLimitExceededHasSet: Você tem um token de acesso pessoal configurado.
+  rateLimitExceededRemoveToken: Remover token
+  rateLimitExceededGitHubPAT: Token de Acesso Pessoal do GitHub
+  rateLimitExceededCopyPastePAT: Copie e cole seu token
+  rateLimitExceededSaveToken: Salvar token
+  errorTitle: Ocorreu um erro
+  errorIntro: Ocorreu um erro ao tentar obter os detalhes mais recentes do status.
+  errorText: Você pode tentar novamente em alguns momentos.
+  errorHome: Ir para a página inicial
+  pastScheduledMaintenance: Manutenções Programadas Passadas
+  scheduledMaintenance: Manutenção Programada
+  scheduledMaintenanceSummaryStarted: Iniciada em $DATE por $DURATION minutos
+  scheduledMaintenanceSummaryStarts: Começa em $DATE por $DURATION minutos
+  startedAt: Iniciada em
+  startsAt: Começa em
+  duration: Duração
+  durationMin: $DURATION minutos
+  incidentCompleted: Concluído
+  incidentScheduled: Programado
+  duration24H: 24h
+  duration7D: 7d
+  duration30D: 30d
+  duration1Y: 1 ano
+  durationAll: todos
+  locale: pt-BR
