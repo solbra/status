@@ -14,7 +14,7 @@ status-website:
   logoUrl: https://plataforma.solbra.com.br/assets/images/solbra-dark.svg
   name: ''
   introTitle: 'Operação dos Sistemas'
-  introMessage: 'Essa página mostra atualizações sobre a operação dos sistemas Solbra.'
+  introMessage: 'Essa página mostra atualizações sobre a operação dos sistemas.'
   navbar:
     - title: Operação
       href: /
@@ -35,7 +35,7 @@ i18n:
   incidentBack: ← Voltar para todos os incidentes
   pastIncidents: Incidentes Passados
   pastIncidentsResolved: Resolvido em $MINUTES minutos com $POSTS publicações
-  liveStatus: Status ao Vivo
+  liveStatus: Ao Vivo
   overallUptime: "Tempo de atividade geral: $UPTIME"
   overallUptimeTitle: Tempo de atividade geral
   averageResponseTime: "Tempo médio de resposta: $TIMEms"
